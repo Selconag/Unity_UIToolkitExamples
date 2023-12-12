@@ -1,0 +1,36 @@
+.blue-button {
+    flex-grow: 0;
+    font-size: 45px;
+    background-color: rgb(42, 189, 229);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.blue-button:hover {
+    scale: 1.1 1.1;
+}
+
+.blue-button:active {
+    background-color: rgb(137, 200, 255);
+}

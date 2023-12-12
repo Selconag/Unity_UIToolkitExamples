@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Selcuk&apos;s%20UI%20Toolkit/TestStyling.uss?fileID=7433441132597879392&amp;guid=6527e50ade1cd9444a351e2ad65b6054&amp;type=3#TestStyling" />
+    <ui:VisualElement name="VisualElement" style="height: 100%; width: 100%; flex-direction: column-reverse;">
+        <ui:VisualElement name="Container" style="justify-content: space-around; align-self: stretch; align-items: center; flex-direction: row; padding-right: 15px; padding-left: 15px; width: 100%; flex-wrap: nowrap; opacity: 1; height: 20%;">
+            <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" style="border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px;" />
+            <ui:Button text="Stop" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

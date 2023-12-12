@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GeneralUseBp.uss?fileID=7433441132597879392&amp;guid=d13dcb57c3c56d549a3ca6e07537d2a1&amp;type=3#GeneralUseBp" />
+    <ui:VisualElement style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); align-items: flex-start;">
+        <ui:VisualElement name="Panel_Top" style="width: 100%; height: 50%; background-color: rgba(255, 243, 0, 0); flex-direction: row; align-items: flex-end; justify-content: space-around; flex-grow: 0;">
+            <ui:VisualElement name="Image_Boy" style="width: 35%; height: 70%; background-image: url(&apos;project://database/Assets/Selcuks%20UI%20Toolkit/Images/Hyperspace%20-%20Floating.png?fileID=2800000&amp;guid=1d8f286b5e7531742a4e5b0818df1020&amp;type=3#Hyperspace - Floating&apos;);" />
+            <ui:VisualElement name="Iamge_Robot" style="width: 35%; height: 70%; background-image: url(&apos;project://database/Assets/Selcuks%20UI%20Toolkit/Images/Hyperspace%20-%20Robot%202.png?fileID=2800000&amp;guid=177008f007ba5e649872161d4f20075a&amp;type=3#Hyperspace - Robot 2&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Panel_Bottom" style="width: 100%; height: 50%; background-color: rgb(22, 131, 183); align-items: flex-start; justify-content: center;">
+            <ui:VisualElement style="flex-grow: 1; justify-content: flex-start; padding-top: 40px; padding-bottom: 40px; align-items: center;">
+                <ui:Label tabindex="-1" text="Starter Content Test" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text_Title" style="font-size: 80px; color: rgb(255, 255, 255); padding-top: 40px; padding-right: 0; padding-bottom: 40px; padding-left: 0;" />
+                <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text_Paragraph" style="font-size: 40px; white-space: normal; color: rgb(255, 255, 255); padding-top: 20px; padding-right: 80px; padding-bottom: 20px; padding-left: 80px; -unity-font: url(&apos;project://database/Assets/Selcuks%20UI%20Toolkit/Font/The%20Smile.otf?fileID=12800000&amp;guid=18123aec281d28f42b92a02a6f190fcb&amp;type=3#The Smile&apos;); -unity-font-definition: url(&apos;project://database/Assets/Selcuks%20UI%20Toolkit/Font/The%20Smile%20SDF.asset?fileID=11400000&amp;guid=ef644aac09e315f41ba20b8083f49b3a&amp;type=2#The Smile SDF&apos;); -unity-font-style: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; -unity-text-align: middle-center; width: 100%; height: 240px; justify-content: center; padding-right: 60px; padding-left: 60px;">
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button-blue blue-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
